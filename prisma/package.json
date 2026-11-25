@@ -1,0 +1,22 @@
+{
+  "name": "rbac-demo",
+  "version": "1.0.0",
+  "description": "Lecture demo: RBAC authorization middleware in Express",
+  "main": "app.js",
+  "scripts": {
+    "seed": "node prisma/seed.js",
+    "start": "PORT=3001 node app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@prisma/adapter-pg": "^7.10.1",
+    "@prisma/client": "^7.10.1",
+    "@prisma/prisma7": "^7.10.1",
+    "pg": "^8.23.1",
+    "prisma": "^8.0.0-rc.35"
+  }
+}
